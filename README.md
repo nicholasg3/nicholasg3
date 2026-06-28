@@ -22,18 +22,14 @@ Time-series analysis, pattern discovery, NLP, and practical ML systems.
 **Public-interest technology**  
 Tools and ideas around transparency, institutions, governance, and civic information.
 
-## Selected Public Work
+## Public Notes
 
-- [`motif-mining`](https://github.com/nicholasg3/motif-mining) - Python implementation work
-  for time-series subsequence search and motif discovery.
-- [`dealing_with_data`](https://github.com/nicholasg3/dealing_with_data) - Materials for a
-  course on practical data work.
-- [`2016_election_primaries`](https://github.com/nicholasg3/2016_election_primaries) -
-  Data and analysis around the 2016 U.S. primary elections.
-- [`EVE_Revolt`](https://github.com/nicholasg3/EVE_Revolt) - Text analysis of community
-  discussion during the EVE Online Incarna crisis.
-- [`reddit_comment_scraper`](https://github.com/nicholasg3/reddit_comment_scraper) - A small
-  utility for collecting Reddit user comments.
+Most of my current work is either research-in-progress, teaching-related, or not yet packaged
+as a public repository. I keep this profile focused on work that is ready for an outside
+reader.
+
+- [Older public repositories](archive.md) - earlier data science, teaching, and analysis
+  projects that I keep available as an archive.
 
 ## Teaching
 
