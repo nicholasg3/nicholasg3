@@ -35,6 +35,11 @@ Tools and ideas around transparency, institutions, governance, and civic informa
 - [`reddit_comment_scraper`](https://github.com/nicholasg3/reddit_comment_scraper) - A small
   utility for collecting Reddit user comments.
 
+## Teaching
+
+- [Selected student projects](student-projects.md) - a public-facing place to collect
+  student work I am proud of.
+
 ## Research
 
 Some of my academic work is listed on
