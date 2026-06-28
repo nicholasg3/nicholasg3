@@ -40,8 +40,8 @@ Most of my current work is either research-in-progress, teaching-related, or not
 as a public repository. I keep this profile focused on work that is ready for an outside
 reader.
 
-- [Older public repositories](archive.md) - earlier data science, teaching, and analysis
-  projects that I keep available as an archive.
+- [Older repository note](archive.md) - context on earlier public repositories that have
+  mostly been retired or made private.
 
 ## Teaching
 
