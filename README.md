@@ -45,6 +45,8 @@ reader.
 
 ## Teaching
 
+- [Courses and curriculum](courses.md) - university courses I teach or have developed in
+  AI governance, blockchain, and financial technology.
 - [Selected student projects](student-projects.md) - a public-facing place to collect
   student work I am proud of.
 - [APRU Tech Policy Hackathon 2025](https://fintechlab.nus.edu.sg/apru-tech-policy-hackathon-2025/)
