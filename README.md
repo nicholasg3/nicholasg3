@@ -42,11 +42,12 @@ Some of my academic work is listed on
 
 Selected links:
 
-- [Google Scholar citation](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jFfsYu4AAAAJ&citation_for_view=jFfsYu4AAAAJ:roLk4NBRz8UC)
-- [Google Scholar citation](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jFfsYu4AAAAJ&citation_for_view=jFfsYu4AAAAJ:UebtZRa9Y70C)
+- [Internal APIs Are All You Need: Shadow APIs, Shared Discovery, and the Case Against Browser-First Agent Architectures](https://arxiv.org/abs/2604.00694)
+  - Lewis Tham, Nicholas Mac Gregor Garcia, Jungpil Hahn. arXiv, 2026.
+- [PSSimPy: A Design Science Approach to Constructing and Implementing a Large-Value Payment System Simulator](https://aisel.aisnet.org/icis2024/blockchain/blockchain/10/)
+  - Kenneth See, Hanzholah Shobri, Nicholas Garcia. ICIS, 2024.
 
 ## Elsewhere
 
 - [GitHub Pages site](https://nicholasg3.github.io/)
 - [Google Scholar](https://scholar.google.com/citations?user=jFfsYu4AAAAJ&hl=en)
-
