@@ -29,6 +29,11 @@ and emerging technology management.
 Curriculum and learning experiences for students and working professionals in smart
 systems, AI governance, data strategy, and regulatory compliance.
 
+**Regional AI and policy programs**  
+Learning programs and hackathons that connect students, universities, industry, and
+public-interest organizations around responsible AI, financial inclusion, and data for
+social impact.
+
 ## Public Notes
 
 Most of my current work is either research-in-progress, teaching-related, or not yet packaged
@@ -42,6 +47,9 @@ reader.
 
 - [Selected student projects](student-projects.md) - a public-facing place to collect
   student work I am proud of.
+- [APRU Tech Policy Hackathon 2025](https://fintechlab.nus.edu.sg/apru-tech-policy-hackathon-2025/)
+  and [2026 Data, AI & Policy APAC Hackathon](https://apru.org/event/2026-hackathon-financial-health-frontiers/)
+  - regional student programs on AI, data, policy, and inclusive financial systems.
 
 ## Research
 
