@@ -1,10 +1,15 @@
 # Nicholas Garcia
 
-I work on AI systems that help people think, learn, and coordinate better.
+I am a Lecturer in Information Systems at the National University of Singapore and a
+Co-Director of the NUS FinTech Lab.
 
-My interests sit at the intersection of applied machine learning, data science education,
-research tooling, and human-centered AI. I like building small, practical systems that make
-messy information easier to inspect, reason about, and teach.
+My work centers on AI governance, digital transformation, and emerging technology
+management. I am interested in the practical frameworks, tools, and capabilities that help
+organizations deploy AI responsibly and at scale.
+
+Across teaching, applied research, and industry collaboration, my current focus is bridging
+research and execution: turning AI policy into operational governance, measurable risk
+management, and useful systems.
 
 ## What I Work On
 
@@ -12,15 +17,17 @@ messy information easier to inspect, reason about, and teach.
 Interfaces and workflows for turning scattered context into useful summaries, decisions,
 and next actions.
 
-**Data science education**  
-Course materials, examples, and teaching tools for helping people learn how to work with
-real data.
+**AI governance and assurance**  
+Model governance, algorithmic risk, compliance workflows, and practical AI safety
+frameworks.
 
-**Applied machine learning**  
-Time-series analysis, pattern discovery, NLP, and practical ML systems.
+**FinTech and digital transformation**  
+Financial technology, blockchain and distributed ledger systems, payment-system simulation,
+and emerging technology management.
 
-**Public-interest technology**  
-Tools and ideas around transparency, institutions, governance, and civic information.
+**Teaching and capability building**  
+Curriculum and learning experiences for students and working professionals in smart
+systems, AI governance, data strategy, and regulatory compliance.
 
 ## Public Notes
 
