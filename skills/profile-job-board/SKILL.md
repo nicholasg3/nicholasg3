@@ -46,18 +46,17 @@ Delete the entry from `jobs.yaml`, or set `deadline` to a past date, then push.
 
 ```bash
 cd /Users/nicholasgarcia/code/nicholasg3-profile
-python scripts/render_jobs.py          # patches README.md
-python scripts/profile_job_title.py --text   # terminal title preview
+.venv/bin/python scripts/render_jobs.py              # patches README.md
+.venv/bin/python scripts/profile_job_title.py --text # terminal title preview
 ```
-
-Requires PyYAML: `pip install pyyaml` (or use the repo `.venv`).
 
 ## Terminal title (Grok)
 
 Active opportunities can appear in the **terminal window title** via OSC:
 
 ```bash
-python3 /Users/nicholasgarcia/code/nicholasg3-profile/scripts/profile_job_title.py
+/Users/nicholasgarcia/code/nicholasg3-profile/.venv/bin/python \
+  /Users/nicholasgarcia/code/nicholasg3-profile/scripts/profile_job_title.py
 ```
 
 Wired on Grok `SessionStart` / `Stop` in `~/.grok/hooks/profile-job-board.json`.
