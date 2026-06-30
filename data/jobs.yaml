@@ -1,0 +1,33 @@
+# Active opportunities shown on the profile README job board.
+# Jobs past `deadline` (YYYY-MM-DD, UTC) are removed automatically by GitHub Actions.
+#
+# Add a job: copy the template below, set deadline, push to main.
+# Remove early: delete the entry or set deadline to yesterday.
+
+jobs:
+  - id: simon-institute-ai-policy-china-2026
+    organization: Simon Institute for Longterm Governance
+    title: AI Policy Specialist (China focus)
+    location: Hong Kong or Singapore (preferred; relocation support available)
+    deadline: "2026-07-15"
+    posted: "2026-06-29"
+    apply_url: "https://docs.google.com/document/d/1RDi6rLfFVbhCIv9LfFkCWP35oIMLpmi8tLN3qQpiczA/edit?tab=t.0"
+    tags:
+      - AI policy
+      - China
+      - Hong Kong
+      - Singapore
+    summary: >
+      AI policy specialist with a China focus — engagement, operations, and strategy
+      for Simon Institute programs in the region.
+    responsibilities:
+      - Engagement — meetings with AI stakeholders across industry, academia, and policy; facilitating SI leadership visits to China
+      - Operations & communications — high-impact workshops and roundtables with Chinese partners; strengthening SI's brand in China
+      - Strategy & research — monitoring trends in Chinese AI development and governance to inform programs
+    requirements:
+      - Native Mandarin and fluent English
+      - Established network in Chinese AI and/or policy
+      - Strong judgment; comfort with senior stakeholders
+    travel: >
+      Quarterly travel to major AI hubs in China; occasional trips (e.g. Geneva,
+      Singapore) for retreats and events.

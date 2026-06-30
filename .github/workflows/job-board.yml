@@ -1,0 +1,42 @@
+name: Job board — prune expired listings
+
+on:
+  schedule:
+    # Daily 00:15 UTC — removes jobs past deadline from profile README
+    - cron: "15 0 * * *"
+  push:
+    paths:
+      - "data/jobs.yaml"
+      - "scripts/render_jobs.py"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install PyYAML
+        run: pip install pyyaml
+
+      - name: Render active jobs into README
+        run: python scripts/render_jobs.py
+
+      - name: Commit if README changed
+        run: |
+          if git diff --quiet README.md; then
+            echo "No expired listings to remove."
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add README.md
+            git commit -m "chore(job-board): refresh active opportunities [skip ci]"
+            git push
+          fi
