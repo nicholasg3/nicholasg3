@@ -107,7 +107,8 @@ def render_section(today: date | None = None) -> str:
         "",
         "Roles I am helping circulate. Listings **auto-remove after the application deadline**.",
         "",
-        f"_Updated {today.isoformat()}. [Add or edit listings](data/jobs.yaml)._",
+        f"_Updated {today.isoformat()}. "
+        "[Add or edit listings](https://github.com/nicholasg3/nicholasg3/blob/main/data/jobs.yaml)._",
         "",
     ]
     if not jobs:

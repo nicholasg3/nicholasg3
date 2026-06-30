@@ -48,7 +48,7 @@ reader.
 
 Roles I am helping circulate. Listings **auto-remove after the application deadline**.
 
-_Updated 2026-06-30. [Add or edit listings](data/jobs.yaml)._
+_Updated 2026-06-30. [Add or edit listings](https://github.com/nicholasg3/nicholasg3/blob/main/data/jobs.yaml)._
 
 ### AI Policy Specialist (China focus) — Simon Institute for Longterm Governance
 
