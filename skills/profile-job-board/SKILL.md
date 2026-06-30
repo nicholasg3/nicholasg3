@@ -1,17 +1,17 @@
 ---
 name: profile-job-board
 description: >
-  Add or update job postings on Nick's public GitHub profile README job board.
+  Add or update job postings on Nick's public GitHub profile opportunities page.
   Use when asked about profile job board, opportunities, jobs.yaml, nicholasg3
-  profile posting, or circulating roles on the profile README. NOT the Codex
+  profile posting, or circulating roles on the profile. NOT the Codex
   job scanner (Google Sheet) — see project_job_scanner.md.
 metadata:
-  short-description: "Profile README opportunities board"
+  short-description: "Profile opportunities page (jobs.md)"
 ---
 
 # Profile job board
 
-Nick's **GitHub profile README** includes an **Opportunities** section that auto-expires listings after their application deadline.
+Nick's **GitHub profile** links to a standalone **[Opportunities](jobs.md)** page that auto-expires listings after their application deadline.
 
 ## Locations
 
@@ -20,8 +20,10 @@ Nick's **GitHub profile README** includes an **Opportunities** section that auto
 | Local repo | `/Users/nicholasgarcia/code/nicholasg3-profile` |
 | GitHub | https://github.com/nicholasg3/nicholasg3 |
 | Job data | `data/jobs.yaml` |
+| Rendered page | `jobs.md` |
 | Renderer | `scripts/render_jobs.py` |
-| README markers | `<!-- job-board:start -->` … `<!-- job-board:end -->` |
+| Page markers | `<!-- job-board:start -->` … `<!-- job-board:end -->` in `jobs.md` |
+| Profile link | `README.md` → [Active job listings](jobs.md) |
 | CI workflow | `.github/workflows/job-board.yml` |
 | In-repo docs | `data/README.md` |
 
@@ -34,7 +36,7 @@ The **Codex job scanner** (daily pulls → Google Sheet) is a separate system. D
 1. Edit `data/jobs.yaml` — copy the template in the file header or `data/README.md`.
 2. Set `deadline` as `YYYY-MM-DD` (UTC). Jobs with `deadline < today` are **inactive**.
 3. Push to `main`.
-4. GitHub Actions re-renders `README.md` on push to `jobs.yaml` and **daily at 00:15 UTC**.
+4. GitHub Actions re-renders `jobs.md` on push to `jobs.yaml` and **daily at 00:15 UTC**.
 
 Required fields: `id`, `organization`, `title`, `deadline`, `apply_url`.
 
@@ -46,7 +48,7 @@ Delete the entry from `jobs.yaml`, or set `deadline` to a past date, then push.
 
 ```bash
 cd /Users/nicholasgarcia/code/nicholasg3-profile
-.venv/bin/python scripts/render_jobs.py              # patches README.md
+.venv/bin/python scripts/render_jobs.py              # patches jobs.md
 .venv/bin/python scripts/profile_job_title.py --text # terminal title preview
 ```
 

@@ -1,6 +1,6 @@
 # Job board data
 
-Edit `jobs.yaml` to add or update listings on the [profile README](../README.md#opportunities).
+Edit `jobs.yaml` to add or update listings on the [opportunities page](../jobs.md).
 
 ## Add a posting
 
@@ -20,7 +20,7 @@ Edit `jobs.yaml` to add or update listings on the [profile README](../README.md#
       - tag-one
 ```
 
-Push to `main`. GitHub Actions re-renders the README immediately and daily.
+Push to `main`. GitHub Actions re-renders `jobs.md` immediately and daily.
 
 ## Remove early
 

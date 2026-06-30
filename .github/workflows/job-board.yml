@@ -2,7 +2,7 @@ name: Job board — prune expired listings
 
 on:
   schedule:
-    # Daily 00:15 UTC — removes jobs past deadline from profile README
+    # Daily 00:15 UTC — removes jobs past deadline from jobs.md
     - cron: "15 0 * * *"
   push:
     paths:
@@ -26,17 +26,17 @@ jobs:
       - name: Install PyYAML
         run: pip install pyyaml
 
-      - name: Render active jobs into README
+      - name: Render active jobs into jobs.md
         run: python scripts/render_jobs.py
 
-      - name: Commit if README changed
+      - name: Commit if jobs page changed
         run: |
-          if git diff --quiet README.md; then
+          if git diff --quiet jobs.md; then
             echo "No expired listings to remove."
           else
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add README.md
+            git add jobs.md
             git commit -m "chore(job-board): refresh active opportunities [skip ci]"
             git push
           fi

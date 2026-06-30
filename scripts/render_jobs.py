@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Render active job board section from data/jobs.yaml into README.md markers."""
+"""Render active job board section from data/jobs.yaml into jobs.md markers."""
 from __future__ import annotations
 
 import re
@@ -14,7 +14,7 @@ except ImportError:
 
 ROOT = Path(__file__).resolve().parent.parent
 JOBS_FILE = ROOT / "data" / "jobs.yaml"
-README = ROOT / "README.md"
+JOBS_PAGE = ROOT / "jobs.md"
 START = "<!-- job-board:start -->"
 END = "<!-- job-board:end -->"
 
@@ -156,10 +156,10 @@ def render_section(today: date | None = None) -> str:
     return "\n".join(parts).rstrip() + "\n"
 
 
-def patch_readme(section: str) -> bool:
-    text = README.read_text(encoding="utf-8")
+def patch_jobs_page(section: str) -> bool:
+    text = JOBS_PAGE.read_text(encoding="utf-8")
     if START not in text or END not in text:
-        raise SystemExit(f"README.md must contain {START} and {END}")
+        raise SystemExit(f"jobs.md must contain {START} and {END}")
     pattern = re.compile(
         re.escape(START) + r".*?" + re.escape(END),
         re.DOTALL,
@@ -168,15 +168,15 @@ def patch_readme(section: str) -> bool:
     new_text = pattern.sub(new_block, text, count=1)
     if new_text == text:
         return False
-    README.write_text(new_text, encoding="utf-8")
+    JOBS_PAGE.write_text(new_text, encoding="utf-8")
     return True
 
 
 def main() -> int:
     section = render_section()
-    changed = patch_readme(section)
+    changed = patch_jobs_page(section)
     n = len(_active(_load_jobs(), date.today()))
-    print(f"Active jobs: {n}; README {'updated' if changed else 'unchanged'}")
+    print(f"Active jobs: {n}; jobs.md {'updated' if changed else 'unchanged'}")
     return 0
 
 
