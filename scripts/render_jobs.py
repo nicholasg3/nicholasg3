@@ -99,6 +99,40 @@ def _render_job(job: dict, today: date) -> str:
     return "\n".join(lines).rstrip()
 
 
+def _short_job_label(job: dict) -> str:
+    """Compact label for terminal title (~20 chars)."""
+    title = (job.get("title") or "Role").strip()
+    org = (job.get("organization") or "").strip()
+    org_short = org.split()[0] if org else ""
+    lower = title.lower()
+    if "ai policy" in lower:
+        role = "AI policy"
+    elif len(title) <= 24:
+        role = title
+    else:
+        role = title[:24].rstrip() + "…"
+    if org_short:
+        return f"{org_short} {role}"
+    return role
+
+
+def format_terminal_title(today: date | None = None, max_len: int = 80) -> str:
+    """One-line summary for terminal window title (OSC)."""
+    today = today or date.today()
+    jobs = _active(_load_jobs(), today)
+    if not jobs:
+        return "Opportunities: none"
+    n = len(jobs)
+    short = _short_job_label(jobs[0])
+    dl = _parse_deadline(str(jobs[0]["deadline"]))
+    due = dl.strftime("%b %-d") if sys.platform != "win32" else dl.strftime("%b %d")
+    if n == 1:
+        line = f"Opportunities: 1 active · {short} · due {due}"
+    else:
+        line = f"Opportunities: {n} active · {short} · due {due}"
+    return line[:max_len]
+
+
 def render_section(today: date | None = None) -> str:
     today = today or date.today()
     jobs = _active(_load_jobs(), today)
