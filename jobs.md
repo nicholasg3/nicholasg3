@@ -7,12 +7,12 @@
 
 Roles I am helping circulate. Listings **auto-remove after the application deadline**.
 
-_Updated 2026-07-08. [Add or edit listings](https://github.com/nicholasg3/nicholasg3/blob/main/data/jobs.yaml)._
+_Updated 2026-07-09. [Add or edit listings](https://github.com/nicholasg3/nicholasg3/blob/main/data/jobs.yaml)._
 
 ### AI Policy Specialist (China focus) — Simon Institute for Longterm Governance
 
 **Location:** Hong Kong or Singapore (preferred; relocation support available)  
-**Apply by:** **July 15, 2026** (7 days left)  
+**Apply by:** **July 15, 2026** (6 days left)  
 **Job description:** [View posting](https://docs.google.com/document/d/1RDi6rLfFVbhCIv9LfFkCWP35oIMLpmi8tLN3qQpiczA/edit?tab=t.0)  
 
 AI policy specialist with a China focus — engagement, operations, and strategy for Simon Institute programs in the region.
