@@ -181,7 +181,7 @@ safety research.
 
 | Reading | Note |
 |---------|------|
-| Lee & See, *Trust in Automation: Designing for Appropriate Reliance* (2004) | [doi.org/10.1518/hfes.46.1.50_30392](https://doi.org/10.1518/hfes.46.1.50_30392) — classic HCI framing for calibrating human trust in automated systems; still the right first reading before any "how much should we trust the agent" discussion |
+| Lee & See, *Trust in Automation: Designing for Appropriate Reliance* (2004) | [journals.sagepub.com/doi/10.1518/hfes.46.1.50_30392](https://journals.sagepub.com/doi/10.1518/hfes.46.1.50_30392) — classic HCI framing for calibrating human trust in automated systems; still the right first reading before any "how much should we trust the agent" discussion. (The `doi.org` redirect for this one points at a dead legacy domain — link directly to SAGE.) |
 | Parasuraman & Riley, *Humans and Automation: Use, Misuse, Disuse, Abuse* (1997) | [doi.org/10.1518/001872097778543886](https://doi.org/10.1518/001872097778543886) — taxonomy of automation-reliance failure modes, maps directly onto over-/under-trusting an agent |
 | Matthias, *The Responsibility Gap* (2004) | [doi.org/10.1007/s10676-004-3422-1](https://doi.org/10.1007/s10676-004-3422-1) — accountability gaps created by autonomous, learning systems; good philosophy-of-agency reading before the capstone |
 | NIST SP 800-207, *Zero Trust Architecture* | [doi.org/10.6028/nist.sp.800-207](https://doi.org/10.6028/nist.sp.800-207) — the security standard underlying most current agent-sandboxing guidance, including Anthropic's below |
