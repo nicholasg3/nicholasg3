@@ -16,6 +16,7 @@ This page is intentionally public and self-contained. Use it as a syllabus sketc
 |--------------|------------|
 | A semester skeleton | [Suggested week-by-week outline](#suggested-week-by-week-outline) |
 | Free “textbooks” from labs | [Official guides and open courses](#official-guides-and-open-courses) |
+| A day-one hands-on setup | [Getting started](#getting-started-a-first-lab-session) |
 | A dense paper map (hundreds of refs) | [Large paper lists and Chinese open curricula](#large-paper-lists-and-chinese-open-curricula) |
 | A short required-reading set | [Core papers](#core-papers-required-set) |
 | A way to measure "does it work" | [Benchmarks and evaluation](#benchmarks-and-evaluation) |
@@ -82,6 +83,35 @@ These are the cleanest free primary sources. Prefer them over secondary “threa
 - [Hugging Face smolagents](https://huggingface.co/docs/smolagents/index)
 - [LangChain / LangGraph](https://www.langchain.com) — especially agent architecture writeups
 - Optional later: AutoGen, CrewAI, Google ADK — introduce *after* students can write a raw tool loop
+
+---
+
+## Getting started (a first lab session)
+
+Before assigning any paper, get every student to a working agent loop in one sitting. Two on-ramps
+that need no infrastructure of your own to stand up.
+
+**Claude Code** — puts students in front of a real, production agentic coding harness (permission
+prompts, tool use, git integration) instead of a toy loop, in about ten minutes.
+
+- Install: `curl -fsSL https://claude.ai/install.sh | bash` (macOS/Linux/WSL — Homebrew and WinGet
+  also supported; see the [quickstart](https://code.claude.com/docs/en/quickstart) for Windows).
+- Run `claude` in any project directory, then try, in order: *"what does this project do?"* →
+  *"add a hello world function"* → *"commit my changes with a descriptive message"*.
+- Pair with [Claude Code 101](https://anthropic.skilljar.com/claude-code-101) above. The
+  [quickstart docs](https://code.claude.com/docs/en/quickstart) themselves are worth assigning as
+  reading — the "always asks permission before modifying files" model is a live example of the
+  least-privilege pattern covered in [Safety, trust, and governance](#safety-trust-and-governance).
+
+**OpenRouter** — one API key, 400+ models across 70+ providers, pay-as-you-go with no subscription
+lock-in. This is the practical fix for "which model do we standardize the course on": issue each
+student a key with a small monthly spend cap, and every framework in this doc (smolagents,
+LangGraph, a raw tool loop) can hit it through a single OpenAI-compatible endpoint. Routing to
+cheap models is also what makes the eval-heavy weeks in
+[Benchmarks and evaluation](#benchmarks-and-evaluation) affordable to run at class scale.
+
+- [openrouter.ai](https://openrouter.ai/) — sign-up and model catalog
+- [openrouter.ai/docs](https://openrouter.ai/docs) — API reference
 
 ---
 
@@ -240,7 +270,7 @@ Adjust pacing for CS vs business students; compress Weeks 10–12 for shorter te
 
 | Week | Theme | Core resource | Lab product |
 |-----:|-------|---------------|-------------|
-| 1 | What is an agent? | OpenAI practical guide (first half) | Same task as script vs as a loop |
+| 1 | What is an agent? | OpenAI practical guide (first half) + [Getting started](#getting-started-a-first-lab-session) | Same task as script vs as a loop; every student running Claude Code + an OpenRouter key |
 | 2 | LLM literacy for agents | InstructGPT / RLHF | Spec for success; temperature vs reliability |
 | 3 | Tool use & ReAct | ReAct paper + smolagents unit | Agent with ≥3 tools and a stop condition |
 | 4 | Planning & reflection | Reflexion (+ optional Self-Refine / ToT) | Retry loop measured on a fixed eval set |
@@ -326,7 +356,8 @@ These show up repeatedly in practitioner discourse and in lab docs; they make go
 4. Bookmark [WooooDyy/LLM-Agent-Paper-List](https://github.com/WooooDyy/LLM-Agent-Paper-List) and [datawhalechina/hello-agents](https://github.com/datawhalechina/hello-agents); pin commits.  
 5. Skim UVA and Stern syllabi for grading/project patterns.  
 6. Pick two benchmarks from [Benchmarks and evaluation](#benchmarks-and-evaluation) and one case study per unit from [Case studies](#case-studies) — don't assign all of either.
-7. Secure student model access (campus credits, free tiers, or Colab).  
+7. Secure student model access — an OpenRouter key with a per-student spend cap covers most labs
+   without negotiating campus API credits; see [Getting started](#getting-started-a-first-lab-session).
 8. Draft Weeks 1–4 labs as a public template repo before term starts.
 
 ---
