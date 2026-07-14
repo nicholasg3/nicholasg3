@@ -57,3 +57,13 @@ Themes include:
 - Applied case work and group projects combining business ideation, financial analysis,
   prototyping, and communication
 
+## Curriculum resources for colleagues
+
+### [Agentic AI course resources](agentic-ai-course-resources.md)
+
+A public starter pack for designing an **undergraduate course on agentic AI** (LLM-based
+agents that plan, use tools, remember, evaluate, and act under oversight). Includes a
+semester skeleton, free lab guides, a short required-paper set, peer syllabi, tooling
+recommendations, and links to large open paper lists and Chinese open curricula
+(including the Fudan agent paper map and Datawhale Hello-Agents).
+

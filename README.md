@@ -52,6 +52,9 @@ reader.
 
 - [Courses and curriculum](courses.md) - university courses I teach or have developed in
   AI governance, blockchain, and financial technology.
+- [Agentic AI course resources](agentic-ai-course-resources.md) - public starter pack for
+  colleagues designing an undergraduate course on LLM-based agents (syllabus sketch,
+  readings, open courses, paper lists).
 - [Selected student projects](student-projects.md) - a public-facing place to collect
   student work I am proud of.
 - [APRU Tech Policy Hackathon 2025](https://fintechlab.nus.edu.sg/apru-tech-policy-hackathon-2025/)
