@@ -7,7 +7,7 @@
 
 Roles I am helping circulate. Listings **auto-remove after the application deadline**.
 
-_Updated 2026-07-16. [Add or edit listings](https://github.com/nicholasg3/nicholasg3/blob/main/data/jobs.yaml)._
+_Updated 2026-07-17. [Add or edit listings](https://github.com/nicholasg3/nicholasg3/blob/main/data/jobs.yaml)._
 
 _No active postings right now._
 <!-- job-board:end -->
