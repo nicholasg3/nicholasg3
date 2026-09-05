@@ -2,6 +2,7 @@
 """Render active job board section from data/jobs.yaml into jobs.md markers."""
 from __future__ import annotations
 
+import json
 import re
 import sys
 from datetime import date, datetime
@@ -15,8 +16,24 @@ except ImportError:
 ROOT = Path(__file__).resolve().parent.parent
 JOBS_FILE = ROOT / "data" / "jobs.yaml"
 JOBS_PAGE = ROOT / "jobs.md"
+JOBS_JSON = ROOT / "jobs.json"
 START = "<!-- job-board:start -->"
 END = "<!-- job-board:end -->"
+
+# Fields carried into the public jobs.json (in addition to id/kind).
+_JSON_FIELDS = [
+    "organization",
+    "title",
+    "location",
+    "deadline",
+    "posted",
+    "apply_url",
+    "tags",
+    "summary",
+    "responsibilities",
+    "requirements",
+    "notes",
+]
 
 
 def _parse_deadline(value: str) -> date:
@@ -61,6 +78,42 @@ def _fmt_deadline(dl: str, today: date) -> str:
     if days <= 14:
         return f"**{base}** ({days} days left)"
     return f"**{base}**"
+
+
+def _job_to_json(job: dict) -> dict:
+    out: dict = {
+        "id": job.get("id", ""),
+        "kind": str(job.get("kind", "job")).lower(),
+    }
+    for field in _JSON_FIELDS:
+        value = job.get(field)
+        if field == "apply_url":
+            value = job.get("apply_url") or job.get("url") or ""
+        if isinstance(value, str):
+            value = value.strip()
+        elif value is None:
+            value = [] if field in ("tags", "responsibilities", "requirements") else ""
+        out[field] = value
+    return out
+
+
+def render_json(today: date | None = None) -> str:
+    today = today or date.today()
+    jobs = _active(_load_jobs(), today)
+    data = {
+        "updated": today.isoformat(),
+        "jobs": [_job_to_json(job) for job in jobs],
+    }
+    return json.dumps(data, indent=2, ensure_ascii=False) + "\n"
+
+
+def write_jobs_json(today: date | None = None) -> bool:
+    new_text = render_json(today)
+    old_text = JOBS_JSON.read_text(encoding="utf-8") if JOBS_JSON.exists() else None
+    if old_text == new_text:
+        return False
+    JOBS_JSON.write_text(new_text, encoding="utf-8")
+    return True
 
 
 def _render_job(job: dict, today: date) -> str:
@@ -184,8 +237,12 @@ def patch_jobs_page(section: str) -> bool:
 def main() -> int:
     section = render_section()
     changed = patch_jobs_page(section)
+    json_changed = write_jobs_json()
     n = len(_active(_load_jobs(), date.today()))
-    print(f"Active jobs: {n}; jobs.md {'updated' if changed else 'unchanged'}")
+    print(
+        f"Active jobs: {n}; jobs.md {'updated' if changed else 'unchanged'}; "
+        f"jobs.json {'updated' if json_changed else 'unchanged'}"
+    )
     return 0
 
 

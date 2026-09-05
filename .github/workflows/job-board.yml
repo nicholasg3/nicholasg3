@@ -31,12 +31,12 @@ jobs:
 
       - name: Commit if jobs page changed
         run: |
-          if git diff --quiet jobs.md; then
+          if git diff --quiet jobs.md jobs.json; then
             echo "No expired listings to remove."
           else
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add jobs.md
+            git add jobs.md jobs.json
             git commit -m "chore(job-board): refresh active opportunities [skip ci]"
             git push
           fi
