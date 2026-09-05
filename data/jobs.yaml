@@ -62,3 +62,30 @@ jobs:
       stipend (US$125), 1:1 mentorship, public credit on the ET website, and a
       reference. Deadline shown here is an estimate tied to the mid-October
       program start; the true process is rolling.
+
+  - id: odysea-ai-alignment-onramp-2026
+    organization: OdySEA
+    title: AI Alignment On-Ramp for Southeast Asia (free 8-week pilot)
+    location: Southeast Asia (online; weekday evenings SGT)
+    deadline: "2026-09-30"
+    posted: "2026-09-05"
+    apply_url: "https://odysea-ai.org/"
+    tags:
+      - AI safety
+      - AI alignment
+      - Southeast Asia
+      - students
+      - free program
+    summary: >
+      A free 8-week pilot for anyone in Southeast Asia who wants to think
+      seriously about AI alignment. No research background required — just
+      curiosity. Weekly sessions on weekday evenings (SGT), led by local TAs,
+      with a curriculum inspired by Iliad's program. Runs September to
+      November 2026 (exact dates TBC).
+    requirements:
+      - Based in Southeast Asia
+      - Curiosity about AI safety - no research background needed
+    notes: >
+      Express interest via the site. Deadline shown is an estimate - the
+      program launches in September 2026 with exact dates TBC, so interest
+      is best expressed early.
