@@ -69,12 +69,17 @@ def _render_job(job: dict, today: date) -> str:
     loc = job.get("location", "")
     dl = str(job.get("deadline", ""))
     url = job.get("apply_url") or job.get("url") or ""
+    # kind: "job" (default) or "program" (courses, fellowships, classes).
+    # Programs get neutral labels: Details / Express interest by.
+    kind = str(job.get("kind", "job")).lower()
+    detail_label = "Details" if kind == "program" else "Job description"
+    by_label = "Express interest by" if kind == "program" else "Apply by"
     lines = [f"### {title} — {org}", ""]
     if loc:
         lines.append(f"**Location:** {loc}  ")
-    lines.append(f"**Apply by:** {_fmt_deadline(dl, today)}  ")
+    lines.append(f"**{by_label}:** {_fmt_deadline(dl, today)}  ")
     if url:
-        lines.append(f"**Job description:** [View posting]({url})  ")
+        lines.append(f"**{detail_label}:** [View posting]({url})  ")
     lines.append("")
     if job.get("summary"):
         lines.append(str(job["summary"]).strip())

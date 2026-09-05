@@ -12,8 +12,8 @@ _Updated 2026-09-05. [Add or edit listings](https://github.com/nicholasg3/nichol
 ### AI Alignment On-Ramp for Southeast Asia (free 8-week pilot) — OdySEA
 
 **Location:** Southeast Asia (online; weekday evenings SGT)  
-**Apply by:** **September 30, 2026**  
-**Job description:** [View posting](https://odysea-ai.org/)  
+**Express interest by:** **September 30, 2026**  
+**Details:** [View posting](https://odysea-ai.org/)  
 
 A free 8-week pilot for anyone in Southeast Asia who wants to think seriously about AI alignment. No research background required — just curiosity. Weekly sessions on weekday evenings (SGT), led by local TAs, with a curriculum inspired by Iliad's program. Runs September to November 2026 (exact dates TBC).
 

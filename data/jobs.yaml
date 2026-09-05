@@ -64,6 +64,7 @@ jobs:
       program start; the true process is rolling.
 
   - id: odysea-ai-alignment-onramp-2026
+    kind: program
     organization: OdySEA
     title: AI Alignment On-Ramp for Southeast Asia (free 8-week pilot)
     location: Southeast Asia (online; weekday evenings SGT)

@@ -42,3 +42,9 @@ Delete the entry from `jobs.yaml`, or set `deadline` to a past date.
 | `requirements` | no | list |
 | `travel` | no | string |
 | `tags` | no | list |
+### Programs vs jobs
+
+Set `kind: program` on entries that are classes, fellowships, or programs
+rather than jobs. Programs render with neutral labels ("Details",
+"Express interest by") instead of "Job description" / "Apply by".
+The default is `kind: job`.
