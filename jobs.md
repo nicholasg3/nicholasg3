@@ -22,6 +22,7 @@ A free 8-week pilot for anyone in Southeast Asia who wants to think seriously ab
 - Curiosity about AI safety - no research background needed
 
 `AI safety` `AI alignment` `Southeast Asia` `students` `free program`
+
 ---
 
 ### Campus Director (student leadership, part-time) — Effective Thesis

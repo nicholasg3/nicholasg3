@@ -155,6 +155,10 @@ def render_section(today: date | None = None) -> str:
     else:
         for i, job in enumerate(jobs):
             if i:
+                # Blank line BEFORE the --- is load-bearing: without it,
+                # Markdown parses the previous line + --- as a setext H2
+                # (this made the tags line render huge, 2026-09-05).
+                parts.append("")
                 parts.append("---")
                 parts.append("")
             parts.append(_render_job(job, today))
