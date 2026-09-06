@@ -7,7 +7,7 @@
 
 Roles I am helping circulate. Listings **auto-remove after the application deadline**.
 
-_Updated 2026-09-05. [Add or edit listings](https://github.com/nicholasg3/nicholasg3/blob/main/data/jobs.yaml)._
+_Updated 2026-09-06. [Add or edit listings](https://github.com/nicholasg3/nicholasg3/blob/main/data/jobs.yaml)._
 
 ### AI Alignment On-Ramp for Southeast Asia (free 8-week pilot) — OdySEA
 
