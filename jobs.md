@@ -7,12 +7,12 @@
 
 Roles I am helping circulate. Listings **auto-remove after the application deadline**.
 
-_Updated 2026-09-16. [Add or edit listings](https://github.com/nicholasg3/nicholasg3/blob/main/data/jobs.yaml)._
+_Updated 2026-09-17. [Add or edit listings](https://github.com/nicholasg3/nicholasg3/blob/main/data/jobs.yaml)._
 
 ### AI Alignment On-Ramp for Southeast Asia (free 8-week pilot) — OdySEA
 
 **Location:** Southeast Asia (online; weekday evenings SGT)  
-**Express interest by:** **September 30, 2026** (14 days left)  
+**Express interest by:** **September 30, 2026** (13 days left)  
 **Details:** [View posting](https://odysea-ai.org/)  
 
 A free 8-week pilot for anyone in Southeast Asia who wants to think seriously about AI alignment. No research background required — just curiosity. Weekly sessions on weekday evenings (SGT), led by local TAs, with a curriculum inspired by Iliad's program. Runs September to November 2026 (exact dates TBC).
