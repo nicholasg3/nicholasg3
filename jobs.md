@@ -7,12 +7,12 @@
 
 Roles I am helping circulate. Listings **auto-remove after the application deadline**.
 
-_Updated 2026-09-27. [Add or edit listings](https://github.com/nicholasg3/nicholasg3/blob/main/data/jobs.yaml)._
+_Updated 2026-09-28. [Add or edit listings](https://github.com/nicholasg3/nicholasg3/blob/main/data/jobs.yaml)._
 
 ### AI Alignment On-Ramp for Southeast Asia (free 8-week pilot) — OdySEA
 
 **Location:** Southeast Asia (online; weekday evenings SGT)  
-**Express interest by:** **September 30, 2026** (3 days left)  
+**Express interest by:** **September 30, 2026** (2 days left)  
 **Details:** [View posting](https://odysea-ai.org/)  
 
 A free 8-week pilot for anyone in Southeast Asia who wants to think seriously about AI alignment. No research background required — just curiosity. Weekly sessions on weekday evenings (SGT), led by local TAs, with a curriculum inspired by Iliad's program. Runs September to November 2026 (exact dates TBC).
@@ -28,7 +28,7 @@ A free 8-week pilot for anyone in Southeast Asia who wants to think seriously ab
 ### Campus Director (student leadership, part-time) — Effective Thesis
 
 **Location:** On campus (any university; remote support from ET team)  
-**Apply by:** **October 12, 2026**  
+**Apply by:** **October 12, 2026** (14 days left)  
 **Job description:** [View posting](https://substack.com/redirect/9dea8461-9e54-47d1-a2d0-09796eafdf49?j=eyJ1IjoiN3lobTJyIn0.GAdFgBsplgnJjSRPt0NZFnGs1yqEriJWinTWQgpr5K4)  
 
 Help fellow students make their theses better for them and for the world. Campus Directors run Effective Thesis's 8-week Accelerator (structured like an EA intro fellowship): light supported recruiting, then guiding a cohort through frameworks like ITN and Theory of Change to connect academic work to pressing global challenges. ET alumni have gone on to MIT, the Institute for Progress, the Tony Blair Institute, and Anthropic.
