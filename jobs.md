@@ -43,4 +43,26 @@ Help fellow students make their theses better for them and for the world. Campus
 - No prior facilitation experience needed - training provided
 
 `students` `leadership` `research impact` `part-time`
+
+---
+
+### AI Governance Researcher / Research Manager — Concordia AI
+
+**Location:** Singapore (office-based; up to 3 months a year remote; work visa support available)  
+**Apply by:** **October 12, 2026** (12 days left)  
+**Job description:** [View posting](https://docs.google.com/forms/d/e/1FAIpQLSf6uDjgSx5ghysh-TOREtP5vijH5iL4nwfCvGWIhupPIAbAMg/viewform)  
+
+Research and analysis on AI safety and governance in Singapore and Southeast Asia, including the State of AI Safety in Singapore reports, plus support for international convenings such as the International Scientific Exchange on AI Safety (ISE 2026).
+
+**Responsibilities:**
+- Contribute to, and depending on experience lead, original research and writing on Singapore's AI safety and governance
+- Develop policy analysis and recommendations for Singapore, Southeast Asia and international developments
+- Support planning and delivery of international convenings, workshops and stakeholder engagements in Singapore
+
+**Looking for:**
+- Undergraduate degree in public policy, international relations, political science, AI/technology governance or related
+- Strong research, analytical and English writing skills, and/or experience organising international convenings
+- Preferred - AI safety/governance or tech-policy experience; familiarity with Singapore's AI policy landscape; basic Mandarin reading and listening
+
+`AI safety` `AI governance` `Singapore` `Southeast Asia` `policy research`
 <!-- job-board:end -->
