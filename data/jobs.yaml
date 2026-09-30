@@ -122,3 +122,27 @@ jobs:
       if unfilled). Hiring process - application form, written test, two
       interviews, two-day in-person work trial. Full job description:
       https://concordia-ai.com/career/ai-governance-researcher-research-manager-singapore/
+
+  - id: aiii-ai-for-humanity-impact-forum-2026
+    kind: program
+    organization: Artificial Intelligence International Institute (AIII) at AICON 2026
+    title: AI for Humanity Impact Forum 2026 (event, 8 October)
+    location: "*SCAPE Ground Theatre, 2 Orchard Link, Singapore 237978 - Thu 8 Oct 2026, 9:30 AM - 6:30 PM"
+    deadline: "2026-10-08"
+    posted: "2026-09-30"
+    apply_url: "https://www.aicon.show/"
+    tags:
+      - AI for good
+      - AI governance
+      - Singapore
+      - event
+    summary: >
+      Second edition of AIII's high-level forum, "In Seek of the Blue Ocean of
+      Sustainable AI for Humanity", on Day 1 of the AICON 2026 festival.
+      Policymakers, corporate decision-makers, academics and impact investors
+      discuss strategy, governance, investment and industrial transformation
+      for sustainable and governable frontier AI.
+    notes: >
+      Tickets via aicon.show. Day 2 (Fri 9 Oct) is AICON's public "AI for
+      Everyone" open day with AI-literacy sessions, workshops, showcases and a
+      music festival.

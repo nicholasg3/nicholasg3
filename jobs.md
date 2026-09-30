@@ -25,6 +25,18 @@ A free 8-week pilot for anyone in Southeast Asia who wants to think seriously ab
 
 ---
 
+### AI for Humanity Impact Forum 2026 (event, 8 October) — Artificial Intelligence International Institute (AIII) at AICON 2026
+
+**Location:** *SCAPE Ground Theatre, 2 Orchard Link, Singapore 237978 - Thu 8 Oct 2026, 9:30 AM - 6:30 PM  
+**Express interest by:** **October 8, 2026** (8 days left)  
+**Details:** [View posting](https://www.aicon.show/)  
+
+Second edition of AIII's high-level forum, "In Seek of the Blue Ocean of Sustainable AI for Humanity", on Day 1 of the AICON 2026 festival. Policymakers, corporate decision-makers, academics and impact investors discuss strategy, governance, investment and industrial transformation for sustainable and governable frontier AI.
+
+`AI for good` `AI governance` `Singapore` `event`
+
+---
+
 ### Campus Director (student leadership, part-time) — Effective Thesis
 
 **Location:** On campus (any university; remote support from ET team)  
