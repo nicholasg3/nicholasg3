@@ -7,12 +7,12 @@
 
 Roles I am helping circulate. Listings **auto-remove after the application deadline**.
 
-_Updated 2026-10-07. [Add or edit listings](https://github.com/nicholasg3/nicholasg3/blob/main/data/jobs.yaml)._
+_Updated 2026-10-08. [Add or edit listings](https://github.com/nicholasg3/nicholasg3/blob/main/data/jobs.yaml)._
 
 ### AI for Humanity Impact Forum 2026 (event, 8 October) — Artificial Intelligence International Institute (AIII) at AICON 2026
 
 **Location:** *SCAPE Ground Theatre, 2 Orchard Link, Singapore 237978 - Thu 8 Oct 2026, 9:30 AM - 6:30 PM  
-**Express interest by:** **October 8, 2026** (1 day left)  
+**Express interest by:** **October 8, 2026** (today)  
 **Details:** [View posting](https://www.aicon.show/)  
 
 Second edition of AIII's high-level forum, "In Seek of the Blue Ocean of Sustainable AI for Humanity", on Day 1 of the AICON 2026 festival. Policymakers, corporate decision-makers, academics and impact investors discuss strategy, governance, investment and industrial transformation for sustainable and governable frontier AI.
@@ -24,7 +24,7 @@ Second edition of AIII's high-level forum, "In Seek of the Blue Ocean of Sustain
 ### Campus Director (student leadership, part-time) — Effective Thesis
 
 **Location:** On campus (any university; remote support from ET team)  
-**Apply by:** **October 12, 2026** (5 days left)  
+**Apply by:** **October 12, 2026** (4 days left)  
 **Job description:** [View posting](https://substack.com/redirect/9dea8461-9e54-47d1-a2d0-09796eafdf49?j=eyJ1IjoiN3lobTJyIn0.GAdFgBsplgnJjSRPt0NZFnGs1yqEriJWinTWQgpr5K4)  
 
 Help fellow students make their theses better for them and for the world. Campus Directors run Effective Thesis's 8-week Accelerator (structured like an EA intro fellowship): light supported recruiting, then guiding a cohort through frameworks like ITN and Theory of Change to connect academic work to pressing global challenges. ET alumni have gone on to MIT, the Institute for Progress, the Tony Blair Institute, and Anthropic.
@@ -45,7 +45,7 @@ Help fellow students make their theses better for them and for the world. Campus
 ### AI Governance Researcher / Research Manager — Concordia AI
 
 **Location:** Singapore (office-based; up to 3 months a year remote; work visa support available)  
-**Apply by:** **October 12, 2026** (5 days left)  
+**Apply by:** **October 12, 2026** (4 days left)  
 **Job description:** [View posting](https://docs.google.com/forms/d/e/1FAIpQLSf6uDjgSx5ghysh-TOREtP5vijH5iL4nwfCvGWIhupPIAbAMg/viewform)  
 
 Research and analysis on AI safety and governance in Singapore and Southeast Asia, including the State of AI Safety in Singapore reports, plus support for international convenings such as the International Scientific Exchange on AI Safety (ISE 2026).
